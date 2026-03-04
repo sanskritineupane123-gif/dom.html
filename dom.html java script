@@ -1,0 +1,8 @@
+<input type="text" id="input1" value="Hello World">
+<input type="text" id="input2">
+
+
+let node1 = document.getElementById("input1");
+let node2 = document.getElementById("input2");
+
+node2.value = node1.value;
